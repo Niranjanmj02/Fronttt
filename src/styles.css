@@ -1,0 +1,231 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; 
+}
+
+header {
+    background-color: #c7cdf0; /* Example color */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto; 
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form div {
+    margin-bottom: 15px; 
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #b44343; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+.main-header {
+    background-color: #b44343;  
+    color: white;
+    text-align: center;
+    padding: 15px; 
+}
+/* styles.css */
+.link-button {
+    background-color: #b44343; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+.link-button {
+    color: black; /* Dark color for good contrast */
+    font-family: 'Arial', sans-serif;
+    font-size: 20px; /* Adjust size as needed */
+    font-weight: bold;
+    text-decoration: none;  /* Remove link underline */
+}
+
+/* styles.css */
+a[href^="/LoginPage"], 
+a[href^="/SignupPage"] { /* Target specific Links */
+    background-color: #b44343; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.link-button { 
+    /* ... */
+    margin: 0 20px; /* Add spacing between the links */
+}
+
+.link-button:hover {
+    color: #ff9933; /* Orange hover color */
+}
+/* styles.css */
+body {
+    /*background-image: url('https://img.freepik.com/free-photo/top-view-frame-with-food-copy-space_23-2148247893.jpg?w=1060&t=st=1710405517~exp=1710406117~hmac=95074db5b9ef4c398e5e9817d57e3a3e934d70a5c92dc7a0edf5c60e29a26339'); 
+    /* Adjust the path as needed */
+    background-image: url('https://t3.ftcdn.net/jpg/01/46/91/16/240_F_146911624_MpozeTIQOoTUUURHWbhFc3Gleql65npI.jpg');
+    background-repeat: no-repeat;  /* Prevent image repetition */
+    background-size: cover; /* Make image cover the entire area */
+    background-attachment: fixed; /* Keep image fixed in place when scrolling */
+}
+h1 {
+    /* ... previous styles ... */
+    margin-bottom: 30px;  /* Adds space below the heading */
+    padding: 10px 20px;  /* Adds padding around the text */
+    /* Subtle background color */
+    border-radius: 5px; /* Slightly rounded corners */
+ } 
+ .main-header h1 {
+    font-family: 'Lobster', cursive;  /* Example font with personality */
+    font-size: 40px;  /* Adjust the size as needed */
+    color: #e67e22;   /* Example of an orange-toned color */
+    margin-bottom: 15px; /* Add some space below the heading */
+}
+.home-page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .food-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .food-item {
+    border: 1px solid #ddd;
+    padding: auto;  
+    text-align: center; 
+    border-radius: 5px;
+  }
+  
+  .food-item img {
+    max-width: 100%;  
+     
+    margin-bottom: 10px; 
+  }
+  .food-item img {
+    /* ... previous styles */
+    height: 150px; /* Adjust the height as needed */
+}
+/* Style for the restaurant container */
+.restaurant-section {
+    max-width: 1200px; /* Adjust width as needed */
+    margin: 40px auto; /* Center the section */
+    padding: 20px;
+}
+
+.restaurant-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style for the food item grid */
+.food-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+    gap: 30px; 
+}
+
+/* Style for individual food items */
+.food-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+/* ... other styles ... */
+
+.food-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Spacing between items */
+}
+
+.food-item img {
+    max-width: 100%; 
+    height: auto;  
+    margin-bottom: 15px;
+    border-radius: 5px; 
+}
+
+.food-item h3 {
+    margin-bottom: 10px; 
+}
+
+.food-item p {
+    margin-bottom: 5px; /* Reduce spacing for a more compact look */
+}
+
+/* Styling the quantity select */
+.food-item select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Styling the buttons */
+.food-item button {
+    background-color: #007bff; /* Example color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* ... other styles ... */
+
+.home-page input[type="text"] { /* Targets the search input */
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add some space below */
+}
+
+
+
+
+
+
+
